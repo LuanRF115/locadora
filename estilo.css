@@ -55,8 +55,8 @@ selector{
 */
 
 body{/*seletor de tag*/
-    background-color: #FFC107; /*muda a cor do fundo*/
-    font-family: Arial, Helvetica, sans-serif; /*muda a fonte e estilo da letra */
+    background-color: #7D0A0A; /*muda a cor do fundo*/
+    font-family: Futura, Helvetica, sans-serif; /*muda a fonte e estilo da letra */
 }
 
 #col1{/*seletor de id*/
@@ -73,18 +73,21 @@ body{/*seletor de tag*/
     margin-top: 14px; /*muda o espaçamento da margem  */
     margin-bottom: 12px;
     font-weight: bold; /*muda a fonte para negrito */
+    font-family: Bebas Neue;
     
 }
 
 .texto{
     font-size: 18px;/*muda o espaçamento */
     font-weight: bold;
+    font-family: Helvetica;
     margin-bottom: 32px;
 }
 
 .pedido{
     margin-top: 32px;
     text-align: left; /*muda o local do texto */
+    font-family: Helvetica;
 }
 
 .rotulo{
@@ -100,7 +103,7 @@ body{/*seletor de tag*/
     color: #434343;
     padding:7px 13px;
     margin-bottom: 16px;
-    border: 1px solid #ced4da;
+    border: 1px Lobster #ced4da;
     border-radius: 4px;
     box-sizing: border-box;
 
@@ -108,12 +111,13 @@ body{/*seletor de tag*/
 
 .botao-reservar{
     width: 100%;
-    background-color: #ffC107;
+    background-color: #7D0A0A;
     color: white;
     line-height: 150%;
     padding-top: 6px;
     padding-bottom: 6px;
     border: none;
+    font-family: Bebas Neue;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 16px;
@@ -126,19 +130,22 @@ body{/*seletor de tag*/
 }
 
 .oferta{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
+    font-family: Montserrat;
     color: white;
 
 }
 
 .destaque{
-    color: #445EE5;
+    color: #d88657;
 }
 
 .texto-oferta{
-    font-size: 18px;
-    margin-top: 10px;
+    font-size: 22px;
+    margin-top: 18px;
+    font-family: Raleway;
+    color: #d88657;
 }
 
 .tudo{
